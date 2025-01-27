@@ -1,0 +1,14 @@
+html {
+    box-sizing: border-box;
+    border: solid 2 px black;
+
+}
+
+div {
+    padding: 1%;
+    margin: 1%;
+    box-sizing: inherit;
+    border: solid 2 px black;
+    
+}
+

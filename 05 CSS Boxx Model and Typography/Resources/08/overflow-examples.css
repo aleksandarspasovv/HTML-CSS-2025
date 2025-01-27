@@ -1,0 +1,19 @@
+div {
+    max-width: 30vw;
+}
+
+div p{
+    border: 2px solid black;
+}
+
+.visible {
+    overflow: visible;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.scroll {
+    overflow: scroll;
+}
