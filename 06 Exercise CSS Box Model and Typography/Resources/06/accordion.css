@@ -1,0 +1,13 @@
+div {
+    margin: 2em auto;
+    max-width: 50%;
+}
+
+details {
+    padding: 1.5em 1em;
+    border: 1px solid #888;
+}
+
+summary {
+    text-decoration: solid;
+}
