@@ -1,0 +1,43 @@
+div {
+    padding: 2em;
+    border: 1px dashed black;
+}
+
+div::before {
+    display: block;
+    position: absolute;
+    top: 0.5em;
+    left: 0.7em;
+}
+
+
+section{
+    width: 600px;
+    margin: 40px auto   ;
+}
+
+.margin {
+    background-color: lightcoral;
+}
+
+.margin::before {
+    content: 'margin';
+}
+
+.border {
+    background: rgb(255, 255, 142);
+}
+
+.padding {
+    background: lightgreen;
+}
+
+
+.content {
+    background: lightblue;
+    text-align: center;
+}
+
+.content::before {
+    display: none;
+}
