@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/* typography css */
+
+html {
+    font: 16px/1.5 Verdana, sans-serif;
+}
+
+body, input {
+    font: inherit;
+}
+
+body {
+    margin: 0 auto;
+    border: 2px solid green;
+    padding: 2em;
+}
+
+header, main, footer, article {
+    border: 2px solid black;
+    padding: 2em;
+    margin-bottom: 1.5em;
+    margin: 0, auto;
+}
+
+p {
+    border: 2px solid blue;
+    padding: 2em;
+    margin: 0 auto;
+}
